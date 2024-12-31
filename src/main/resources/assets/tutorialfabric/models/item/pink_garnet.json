@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "tutorialshuogamod:item/pink_garnet"
+    "layer0": "tutorialfabric:item/pink_garnet"
   }
 }
