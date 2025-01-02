@@ -21,7 +21,7 @@ public class ModItems {
 
     public static void registerModItems() {
         // 初期化時に実行される
-        TutorialFabric121x.LOGGER.info("registering Mod items for " + TutorialFabric121x.MOD_ID);
+        TutorialFabric121x.LOGGER.info("Registering Mod Items for " + TutorialFabric121x.MOD_ID);
 
         //クリエメニューの素材タブに追加
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
