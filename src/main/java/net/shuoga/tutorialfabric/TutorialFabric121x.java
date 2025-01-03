@@ -3,6 +3,7 @@ package net.shuoga.tutorialfabric;
 import net.fabricmc.api.ModInitializer;
 
 import net.shuoga.tutorialfabric.block.ModBlocks;
+import net.shuoga.tutorialfabric.item.ModItemGroups;
 import net.shuoga.tutorialfabric.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -15,6 +16,7 @@ public class TutorialFabric121x implements ModInitializer {
 	public void onInitialize() {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModItemGroups.registerItemGroups();
 	}
 
 	/*
