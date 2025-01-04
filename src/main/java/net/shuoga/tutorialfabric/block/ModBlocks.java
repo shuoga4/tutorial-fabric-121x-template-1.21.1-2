@@ -19,7 +19,6 @@ public class ModBlocks {
             .strength(4f)
             .requiresTool()
             .sounds(BlockSoundGroup.AMETHYST_BLOCK)
-            // shift2回 + "Blocks" とタイプ + 非プロジェクト項目を含める + Block/net.minecraft.block で、すべてのバニラブロックの設定を見られる
             // 遊び推奨場所
     ));
 

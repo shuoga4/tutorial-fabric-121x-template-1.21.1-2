@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 50,
+  "experience": 20,
+  "group": "pink_garnet",
+  "ingredient": {
+    "item": "tutorialfabric:pink_garnet"
+  },
+  "result": {
+    "id": "tutorialfabric:pink_garnet_block"
+  }
+}
