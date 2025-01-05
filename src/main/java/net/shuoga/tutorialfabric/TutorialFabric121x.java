@@ -37,7 +37,18 @@ public class TutorialFabric121x implements ModInitializer {
 
 	add recipe
 	1. data/tutorialfabric/recipeにjsonファイルを作る
-	※ 外部ライブラリ/"Gradle: net_fabricmc_yarn"の3つ上にある"net.minecraft:minecraft-merged"で、すべてのレシピが確認可能
+	※ 外部ライブラリ/"Gradle: net_fabricmc_yarn"の3つ上にある"net.minecraft:minecraft-merged/data/minecraft/recipe"で、すべてのレシピが確認可能
+
+	add mineable
+	0. requiretool()をブロックメソッドで指定すること
+	1. data/minecraft/tags/block/mineableで、ブロックの指定
+	2. data/minecraft/tags/blockで、ツールの指定
+	※ 外部ライブラリ/"Gradle: net_fabricmc_yarn"の3つ上にある"net.minecraft:minecraft-merged/data/minecraft/tags/block"で、すべてのブロックタグが確認可能
+
+	add loot table
+	0. add mineable をする
+	1. data/tutorialfabric/loot_table/blocksで定義 URL=https://misode.github.io/loot-table/
+	※ 外部ライブラリ/"Gradle: net_fabricmc_yarn"の3つ上にある"net.minecraft:minecraft-merged/data/minecraft/loot_table/blocks"で、すべてのブロックタグが確認可能
 
 
 	 */
